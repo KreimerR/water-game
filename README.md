@@ -38,8 +38,8 @@ Sort the colored water into the bottles. Each bottle should contain only one col
 - Reset level option
 
 ## Screenshots
-![Main menu screenshot](./screenshots/main-menu.jpg)
-![Menu screenshot](./screenshots/menu.jpg)
-![Easy level screenshot](./screenshots/easy-level.jpg)
-![Completed Easy level screenshot](./screenshots/easy-level-completed.jpg)
-![Hard level screenshot](./screenshots/hard-level.jpg)
+<img src="./screenshots/main-menu.jpg" alt="Main menu screenshot" width="500">
+<img src="./screenshots/menu.jpg" alt="Menu screenshot" width="500">
+<img src="./screenshots/easy-level.jpg" alt="Easy level screenshot" width="500">
+<img src="./screenshots/easy-level-completed.jpg" alt="Completed Easy level screenshot" width="500">
+<img src="./screenshots/hard-level.jpg" alt="Hard level screenshot" width="500">
