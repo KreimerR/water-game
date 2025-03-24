@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Game</title>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" as="style" onload="this.rel='stylesheet'">
+</head>
+<body>
+    <div class="container">
+        <p class="call">Please select the game difficulty</p>
+        <div class="play-container" id="play-container-el">
+            <a class="difficulty-container" href="../easy-level/easylevel.html">
+                <h2 class="difficulty">Easy</h2>
+                <p id="level-el">Level <span id="level-easy-el">1</span></p>
+            </a>
+            <p class="reset-button" id="reset-easy-el">Reset "Easy"</p>
+
+            <a class="difficulty-container" href="../medium-level/mediumlevel.html">
+                <h2 class="difficulty">Medium</h2>
+                <p id="level-el">Level <span id="level-medium-el">1</span></p>
+            </a>
+            <p class="reset-button" id="reset-medium-el">Reset "Medium"</p>
+
+            <a class="difficulty-container" href="../hard-level/hardlevel.html">
+                <h2 class="difficulty">Hard</h2>
+                <p id="level-el">Level <span id="level-hard-el">1</span></p>
+            </a>
+            <p class="reset-button" id="reset-hard-el">Reset "Hard"</p>
+        </div>
+
+        <div class="buttons-container">
+            <a class="button" href="mainmenu.html">Back</a>
+            <p class="button" id="reset-el">Reset</p>
+            <p class="button" id="done-el">Done</p>
+        </div>
+    </div>
+    <script src="menu.js"></script>
+</body>
+</html>

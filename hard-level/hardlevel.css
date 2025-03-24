@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1b4f72;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1rem;
+    height: 100vh;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    touch-action: manipulation;
+}
+
+.bottles-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bottles-container-1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottles-container-2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+}
+
+.bottle {
+    border: #e5e7e9 solid 6px;
+    height: 160px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.water {
+    height: 40px;
+    width: 45px;
+}
+
+.buttons-container {
+    margin-bottom: 50px;
+}
+
+.bottom-buttons-container {
+    margin-top: 50px;
+}
+
+.buttons-container, .bottom-buttons-container {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#next-btn-el {
+    width: 50px;
+    height: 50px;
+    background-image: url("../media/next-gray.png");
+    background-size: 50px;
+    cursor: default;
+}
+
+.button {
+    cursor: pointer;
+}
+
+p {
+    cursor: default;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 400px) {
+    body {
+        justify-content: flex-start;
+        height: 0;
+    }
+
+    .buttons-container {
+        margin-top: 0;
+    }
+}

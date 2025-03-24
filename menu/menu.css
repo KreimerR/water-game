@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body {
+    background-color: #1b4f72;
+    height: 100vh;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    touch-action: manipulation;
+}
+
+.logo {
+    margin-bottom: 50px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-2 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    cursor: default;
+}
+
+.play-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.difficulty-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 5px;
+    border: whitesmoke solid 4px;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.difficulty {
+    margin-top: 10px;
+    font-size: 1.8rem;
+}
+
+#level-el {
+    font-size: 0.8rem;
+    color: rgb(225, 225, 225);
+}
+
+.play-second-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+}
+
+.play-third-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    border: whitesmoke solid 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.reset-button {
+    display: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#done-el {
+    display: none;
+}
+
+
+@media (max-width: 400px) {
+    body {
+        height: 90vh;
+    }
+}
