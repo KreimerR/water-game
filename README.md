@@ -17,7 +17,7 @@ Simply open [this link](https://water-game-ivory.vercel.app/) in your browser to
 ### Option 2: Run Locally
 1. Clone the repository:
    ```bash
-   git clone https://github.com/KreimerR/water-game
+   git clone https://github.com/KreimerR/water-game.git
    ```
 
 2. Navigate to the project folder:
