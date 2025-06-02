@@ -9,6 +9,12 @@ This is a 2D puzzle browser game where players must sort colored water into bott
 - JavaScript
 
 ## How to Run
+You can use this project in one of the following ways:
+
+### Option 1: Use the Live Version
+Simply open [this link](https://water-game-ivory.vercel.app/) in your browser to access the application online
+
+### Option 2: Run Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/KreimerR/water-game
